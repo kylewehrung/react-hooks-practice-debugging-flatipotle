@@ -16,7 +16,7 @@ function Form({ onAddOrder }) {
 
   function handleSubmit(event) {
     event.preventDefault();
-    onAddOrder(formState);//
+    onAddOrder(formState);
 
     setFormState({
       ...DEFAULT_STATE,
